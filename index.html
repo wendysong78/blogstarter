@@ -1,0 +1,119 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mason — My Memories, My Story</title>
+  <meta name="description" content="My memories, my story — before death I fade as carbon, yet endure as silicon." />
+  <style>
+    /* Notebook vibe */
+    :root {
+      --paper: #fdfaf5;
+      --ink: #2c2c2c;
+      --rule: #c7c2b8;
+      --accent: #5a4bff;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: var(--paper);
+      color: var(--ink);
+      font-family: "Georgia", serif;
+      line-height: 1.8;
+    }
+    header {
+      text-align: center;
+      padding: 64px 20px 28px;
+      border-bottom: 2px dashed var(--rule);
+    }
+    header h1 { margin: 0 0 8px; font-weight: 500; letter-spacing: .5px; }
+    header p { margin: 0; font-style: italic; color: #555; }
+    nav {
+      display: flex; flex-wrap: wrap; gap: 16px; justify-content: center;
+      padding: 18px 20px; border-bottom: 1px solid #e6e0d7; background: #fbf7f0;
+    }
+    nav a { color: #333; text-decoration: none; font-weight: 600; }
+    nav a:hover { text-decoration: underline; }
+    main { max-width: 820px; margin: 40px auto; padding: 0 20px; }
+    section {
+      background: #fffefb; margin: 36px 0; padding: 20px 20px 28px;
+      border-left: 4px solid #c8c3bb;
+      box-shadow: 2px 2px 6px rgba(0,0,0,.05);
+    }
+    section h2 { margin-top: 0; font-weight: 600; }
+    figure { margin: 16px 0; }
+    figcaption { font-size: .9em; color: #666; }
+    img, video, iframe { max-width: 100%; height: auto; border-radius: 6px; }
+    footer {
+      text-align: center; padding: 40px 20px; color: #777;
+      border-top: 1px dashed var(--rule); margin-top: 40px;
+    }
+    pre { background: #f4efe6; padding: 12px; border-radius: 6px; overflow:auto; }
+    code { font-family: ui-monospace, Menlo, Monaco, Consolas, "Courier New", monospace; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>My Memories, My Story</h1>
+    <p>Before death — to fade as carbon, to endure as silicon.</p>
+  </header>
+
+  <nav>
+    <a href="#roots">Roots</a>
+    <a href="#paths">Paths</a>
+    <a href="#streets">Streets</a>
+    <a href="#echoes">Echoes</a>
+    <a href="#wires">Wires</a>
+    <a href="#soul">Soul</a>
+  </nav>
+
+  <main>
+    <section id="roots">
+      <h2>Roots</h2>
+      <p>This is where I write about family, love, and the ties that shaped me.</p>
+      <figure>
+        <img src="assets/placeholder.svg" alt="A placeholder memory image">
+        <figcaption>Replace placeholder.svg with your own photo.</figcaption>
+      </figure>
+    </section>
+
+    <section id="paths">
+      <h2>Paths</h2>
+      <p>Learning, work, choices, detours. Notes from the road.</p>
+    </section>
+
+    <section id="streets">
+      <h2>Streets</h2>
+      <p>City, society, quiet observations from the crowd.</p>
+    </section>
+
+    <section id="echoes">
+      <h2>Echoes</h2>
+      <p>Art that stayed with me.</p>
+      <!-- Example YouTube embed -->
+      <iframe width="720" height="405"
+        src="https://www.youtube.com/embed/VIDEO_ID"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen></iframe>
+    </section>
+
+    <section id="wires">
+      <h2>Wires</h2>
+      <p>Notes on technology and the future.</p>
+      <video controls poster="assets/placeholder.svg">
+        <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </section>
+
+    <section id="soul">
+      <h2>Soul</h2>
+      <p>Reflections, doubts, beliefs — the inner weather.</p>
+    </section>
+  </main>
+
+  <footer>© Mason — A legacy for my children</footer>
+</body>
+</html>
